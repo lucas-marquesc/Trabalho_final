@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 640" width="1180" height="640"><title>P&ID simplificado da malha a três elementos</title><defs><marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f2937"/></marker><marker id="setaS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b91c1c"/></marker></defs><rect width="1180" height="640" fill="#ffffff"/><text x="590" y="32" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#1f2937" text-anchor="middle" font-weight="bold">Controle de nível do tambor B-101 a três elementos — P&amp;ID simplificado (ISA-5.1)</text>
+<rect x="420" y="250" width="300" height="110" rx="55" fill="#dbeafe" stroke="#1f2937" stroke-width="2"/>
+<path d="M 475 305 L 665 305" stroke="#1d4ed8" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="570" y="345" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold">Tambor de vapor B-101</text>
+<text x="570" y="288" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle" font-weight="normal">nível normal (NWL) = 50 %</text>
+<path d="M 570 250 L 570 160 L 90 160" fill="none" stroke="#6b7280" stroke-width="5" stroke-linejoin="round"/>
+<text x="100" y="150" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6b7280" text-anchor="start" font-weight="normal">vapor 10 bar g → consumo</text>
+<path d="M 330 146 L 330 174" fill="none" stroke="#1f2937" stroke-width="4" stroke-linejoin="round"/>
+<path d="M 336 146 L 336 174" fill="none" stroke="#1f2937" stroke-width="4" stroke-linejoin="round"/>
+<text x="333" y="196" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="normal">FE-101</text>
+<path d="M 318 160 L 318 118" fill="none" stroke="#6b7280" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 348 160 L 348 118" fill="none" stroke="#6b7280" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="333" cy="92" r="26" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<text x="333" y="88" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">FT</text>
+<text x="333" y="107" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="normal">101</text>
+<path d="M 1150 520 L 640 520 L 640 360" fill="none" stroke="#1d4ed8" stroke-width="5" stroke-linejoin="round"/>
+<text x="1045" y="505" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1d4ed8" text-anchor="start" font-weight="normal">água da bomba (105 °C)</text>
+<path d="M 992 509 L 1010 520 L 992 531 Z M 1028 509 L 1010 520 L 1028 531 Z" fill="#1d4ed8" stroke="#1f2937" stroke-width="1.5"/>
+<path d="M 1010 520 L 1010 490" fill="none" stroke="#1f2937" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 994 490 A 16 12 0 0 1 1026 490 Z" fill="#ffffff" stroke="#1f2937" stroke-width="1.8"/>
+<text x="1010" y="560" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="normal">FV-102</text>
+<text x="1010" y="576" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="normal">ar p/ abrir · falha fecha</text>
+<path d="M 900 506 L 900 534" fill="none" stroke="#1f2937" stroke-width="4" stroke-linejoin="round"/>
+<path d="M 906 506 L 906 534" fill="none" stroke="#1f2937" stroke-width="4" stroke-linejoin="round"/>
+<text x="903" y="556" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="normal">FE-102</text>
+<path d="M 888 520 L 888 478" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 918 520 L 918 478" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="903" cy="452" r="26" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<text x="903" y="448" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">FT</text>
+<text x="903" y="467" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="normal">102</text>
+<path d="M 716 275 L 880 275" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 716 335 L 880 335" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linejoin="round"/>
+<rect x="874" y="275" width="12" height="60" rx="0" fill="#bfdbfe" stroke="#1f2937" stroke-width="1.5"/>
+<text x="894" y="310" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start" font-weight="normal">LG-101</text>
+<path d="M 750 275 L 750 422" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 790 335 L 790 422" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="770" cy="440" r="26" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<text x="770" y="436" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">LT</text>
+<text x="770" y="455" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="normal">101</text>
+<rect x="544" y="66" width="52" height="52" rx="0" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<circle cx="570" cy="92" r="26" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<path d="M 544 92 L 596 92" fill="none" stroke="#1f2937" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="570" y="88" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">LIC</text>
+<text x="570" y="107" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="normal">101</text>
+<rect x="794" y="66" width="52" height="52" rx="0" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<circle cx="820" cy="92" r="26" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<path d="M 794 92 L 846 92" fill="none" stroke="#1f2937" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="820" y="88" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">FY</text>
+<text x="820" y="107" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="normal">102</text>
+<text x="820" y="136" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="normal">Σ  K_FF·Fv + correção</text>
+<rect x="984" y="194" width="52" height="52" rx="0" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<circle cx="1010" cy="220" r="26" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<path d="M 984 220 L 1036 220" fill="none" stroke="#1f2937" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="1010" y="216" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">FIC</text>
+<text x="1010" y="235" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="normal">102</text>
+<path d="M 744 440 L 700 440 L 700 130 L 592 108" fill="none" stroke="#b91c1c" stroke-width="1.6" stroke-dasharray="8 5" marker-end="url(#setaS)"/>
+<path d="M 359 92 L 450 92 L 450 40 L 820 40 L 820 66" fill="none" stroke="#b91c1c" stroke-width="1.6" stroke-dasharray="8 5" marker-end="url(#setaS)"/>
+<path d="M 596 92 L 794 92" fill="none" stroke="#b91c1c" stroke-width="1.6" stroke-dasharray="8 5" marker-end="url(#setaS)"/>
+<path d="M 846 92 L 1010 92 L 1010 194" fill="none" stroke="#b91c1c" stroke-width="1.6" stroke-dasharray="8 5" marker-end="url(#setaS)"/>
+<path d="M 929 452 L 1060 452 L 1060 230 L 1036 222" fill="none" stroke="#b91c1c" stroke-width="1.6" stroke-dasharray="8 5" marker-end="url(#setaS)"/>
+<path d="M 1010 246 L 1010 470" fill="none" stroke="#b91c1c" stroke-width="1.6" stroke-dasharray="8 5" marker-end="url(#setaS)"/>
+<text x="1018" y="330" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#b91c1c" text-anchor="start" font-weight="normal">AO-01 · 4–20 mA</text>
+<text x="706" y="400" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#b91c1c" text-anchor="start" font-weight="normal">AI-01</text>
+<text x="375" y="84" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#b91c1c" text-anchor="start" font-weight="normal">AI-02</text>
+<text x="940" y="446" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#b91c1c" text-anchor="start" font-weight="normal">AI-03</text>
+<text x="700" y="84" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="normal">correção (t/h)</text>
+<text x="920" y="84" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#b91c1c" text-anchor="middle" font-weight="normal">SP remoto (t/h)</text>
+<rect x="40" y="440" width="360" height="170" rx="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+<text x="56" y="466" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" text-anchor="start" font-weight="bold">Legenda</text>
+<circle cx="72" cy="494" r="14" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<text x="96" y="499" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start" font-weight="normal">instrumento de campo (LD301 HART)</text>
+<rect x="58" y="516" width="28" height="28" rx="0" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<circle cx="72" cy="530" r="14" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<text x="96" y="535" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start" font-weight="normal">função no CLP, operada pela IHM</text>
+<path d="M 58 566 L 110 566" fill="none" stroke="#b91c1c" stroke-width="1.6" stroke-dasharray="8 5"/>
+<text x="120" y="570" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start" font-weight="normal">sinal elétrico 4–20 mA</text>
+<path d="M 58 592 L 110 592" fill="none" stroke="#1d4ed8" stroke-width="4" stroke-linejoin="round"/>
+<text x="120" y="596" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start" font-weight="normal">processo (água) · cinza = vapor</text></svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640"><title>Cadeia de cálculo do programa do CLP</title><defs><marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f2937"/></marker><marker id="setaS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b91c1c"/></marker></defs><rect width="1280" height="640" fill="#ffffff"/><text x="640" y="32" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#1f2937" text-anchor="middle" font-weight="bold">Programa do CLP — controle a três elementos (etapas do MAIN, TASK de 100 ms)</text>
+<rect x="30" y="90" width="120" height="46" rx="23" fill="#fef3c7" stroke="#1f2937" stroke-width="1.5"/>
+<text x="90" y="111" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">AI_LT101</text>
+<text x="90" y="127" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="normal">1–5 V</text>
+<rect x="30" y="250" width="120" height="46" rx="23" fill="#fef3c7" stroke="#1f2937" stroke-width="1.5"/>
+<text x="90" y="271" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">AI_FT101</text>
+<text x="90" y="287" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="normal">1–5 V</text>
+<rect x="30" y="410" width="120" height="46" rx="23" fill="#fef3c7" stroke="#1f2937" stroke-width="1.5"/>
+<text x="90" y="431" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">AI_FT102</text>
+<text x="90" y="447" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle" font-weight="normal">1–5 V</text>
+<rect x="180" y="80" width="120" height="66" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<text x="240.0" y="102" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">1  I = V / 0,25</text>
+<text x="240.0" y="119" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">mA</text>
+<text x="240.0" y="136" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">2  falha <3,6 ou >21</text>
+<path d="M 150 113 L 180 113" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<rect x="180" y="240" width="120" height="66" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<text x="240.0" y="262" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">1  I = V / 0,25</text>
+<text x="240.0" y="279" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">mA</text>
+<text x="240.0" y="296" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">2  falha <3,6 ou >21</text>
+<path d="M 150 273 L 180 273" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<rect x="180" y="400" width="120" height="66" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<text x="240.0" y="422" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">1  I = V / 0,25</text>
+<text x="240.0" y="439" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">mA</text>
+<text x="240.0" y="456" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">2  falha <3,6 ou >21</text>
+<path d="M 150 433 L 180 433" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<rect x="330" y="80" width="150" height="66" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<text x="405.0" y="102" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">3  NIVEL =</text>
+<text x="405.0" y="119" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="normal">(I − 4)/16·100</text>
+<text x="405.0" y="136" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">%</text>
+<path d="M 300 113 L 330 113" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<rect x="330" y="240" width="150" height="66" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<text x="405.0" y="262" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">4  %ΔP = (I−4)/16·100</text>
+<text x="405.0" y="279" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">corte ≤ 1 % → 0</text>
+<text x="405.0" y="296" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">Q = 20·√(%ΔP/100) t/h</text>
+<path d="M 300 273 L 330 273" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<rect x="330" y="400" width="150" height="66" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<text x="405.0" y="422" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">4  %ΔP = (I−4)/16·100</text>
+<text x="405.0" y="439" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">corte ≤ 1 % → 0</text>
+<text x="405.0" y="456" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">Q = 25·√(%ΔP/100) t/h</text>
+<path d="M 300 433 L 330 433" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<rect x="520" y="240" width="140" height="66" rx="6" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+<text x="590.0" y="262" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">5  FF = K_FF·Q_vapor</text>
+<text x="590.0" y="279" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">sem FT-101 válido → 0</text>
+<text x="590.0" y="296" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">t/h</text>
+<path d="M 480 273 L 520 273" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<rect x="520" y="60" width="190" height="106" rx="6" fill="#ffedd5" stroke="#1f2937" stroke-width="1.5"/>
+<text x="615.0" y="82" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">7  LIC-101 · PI_AW</text>
+<text x="615.0" y="99" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">PV = NIVEL · SP = SP_NIVEL</text>
+<text x="615.0" y="116" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">ação REVERSA</text>
+<text x="615.0" y="133" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">saída = correção ±5 t/h</text>
+<text x="615.0" y="150" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">em manual: rastreia Qa − FF</text>
+<path d="M 480 113 L 520 113" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<circle cx="780" cy="190" r="26" fill="#ffedd5" stroke="#1f2937" stroke-width="1.5"/>
+<text x="780" y="198" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#1f2937" text-anchor="middle" font-weight="bold">Σ</text>
+<text x="814" y="226" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start" font-weight="bold">8  SP_AGUA = FF + correção</text>
+<text x="814" y="242" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="start" font-weight="normal">LIMIT 0 a 25 t/h</text>
+<path d="M 710 113 L 765 170" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<path d="M 660 273 L 762 208" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<rect x="860" y="330" width="200" height="120" rx="6" fill="#ffedd5" stroke="#1f2937" stroke-width="1.5"/>
+<text x="960.0" y="352" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="middle" font-weight="bold">9  FIC-102 · PI_AW</text>
+<text x="960.0" y="369" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">PV = Q_agua · SP = SP_AGUA</text>
+<text x="960.0" y="386" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">ação REVERSA</text>
+<text x="960.0" y="403" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">saída = abertura 0 a 100 %</text>
+<text x="960.0" y="420" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">em manual: segue MV_MANUAL</text>
+<text x="960.0" y="437" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">(transferência sem salto)</text>
+<path d="M 806 190 L 960 190 L 960 330" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<path d="M 480 433 L 860 433" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<rect x="1100" y="360" width="150" height="66" rx="6" fill="#fef3c7" stroke="#1f2937" stroke-width="1.5"/>
+<text x="1175.0" y="382" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">10  AO = 4 + 0,16·x</text>
+<text x="1175.0" y="399" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">mA → FV-102</text>
+<text x="1175.0" y="416" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="bold">AO_FV102</text>
+<path d="M 1060 393 L 1100 393" fill="none" stroke="#1f2937" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#seta)"/>
+<rect x="800" y="515" width="450" height="100" rx="6" fill="#f1f5f9" stroke="#1f2937" stroke-width="1.5"/>
+<text x="1025.0" y="537" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">6  EM_AUTO = MODO_AUTO E PARTIDA.Q</text>
+<text x="1025.0" y="554" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold">E NÃO falha LT-101 E NÃO falha FT-102</text>
+<text x="1025.0" y="571" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">PARTIDA: TON de 10 s ao entrar em RUN (PI rastreando)</text>
+<text x="1025.0" y="588" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#1f2937" text-anchor="middle" font-weight="normal">EM_AUTO = FALSE → os dois PI em manual/rastreamento</text>
+<path d="M 960 515 L 960 450" fill="none" stroke="#1f2937" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#seta)"/>
+<path d="M 840 515 L 840 470 L 735 470 L 735 140 L 712 140" fill="none" stroke="#1f2937" stroke-width="1.4" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#seta)"/>
+<text x="40" y="560" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="start" font-weight="normal">IHM → CLP: SP_NIVEL, KP_LIC, TI_LIC, K_FF, KP_FIC, TI_FIC, MODO_AUTO, MV_MANUAL</text>
+<text x="40" y="582" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="normal">Sem feedforward (K_FF = 0) o mestre fornece o setpoint inteiro (0 a 25 t/h): cascata a dois elementos.</text>
+<text x="40" y="602" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="normal">A raiz quadrada é aplicada SÓ no CLP: os FT-101/FT-102 ficam com função LINEAR (ΔP).</text></svg>

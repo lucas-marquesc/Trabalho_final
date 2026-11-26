@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" width="1000" height="720"><title>Instalação do LT-101 no tambor</title><defs><marker id="seta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1f2937"/></marker><marker id="setaS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b91c1c"/></marker></defs><rect width="1000" height="720" fill="#ffffff"/><text x="500" y="32" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#1f2937" text-anchor="middle" font-weight="bold">LT-101 — medição de nível do tambor por pressão diferencial (perna de referência úmida)</text>
+<clipPath id="tamb"><circle cx="230" cy="300" r="160"/></clipPath>
+<g clip-path="url(#tamb)"><rect x="70" y="140" width="320" height="320" fill="#e5e7eb"/><rect x="70" y="310" width="320" height="160" fill="#93c5fd"/></g>
+<circle cx="230" cy="300" r="160" fill="none" stroke="#1f2937" stroke-width="3"/>
+<text x="230" y="250" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle" font-weight="normal">vapor saturado</text>
+<text x="230" y="268" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle" font-weight="normal">ρv = 5,6 kg/m³</text>
+<text x="230" y="360" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1d4ed8" text-anchor="middle" font-weight="normal">água saturada</text>
+<text x="230" y="378" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1d4ed8" text-anchor="middle" font-weight="normal">ρa = 882,5 kg/m³</text>
+<path d="M 90 310 L 370 310" stroke="#1d4ed8" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="96" y="304" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1d4ed8" text-anchor="start" font-weight="normal">h (nível)</text>
+<text x="230" y="126" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="bold">tambor de vapor B-101 · 10 bar g · 184 °C</text>
+<path d="M 358.0 204 L 560 204" fill="none" stroke="#1d4ed8" stroke-width="3" stroke-linejoin="round"/>
+<rect x="548" y="186" width="26" height="36" rx="4" fill="#d1d5db" stroke="#1f2937" stroke-width="1.5"/>
+<text x="590" y="182" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="start" font-weight="normal">pote de condensado</text>
+<path d="M 561 222 L 561 600 L 650 600" fill="none" stroke="#1d4ed8" stroke-width="3" stroke-linejoin="round"/>
+<text x="570" y="420" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="start" font-weight="normal">perna de referência</text>
+<text x="570" y="437" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="normal">sempre cheia de condensado</text>
+<text x="570" y="454" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="normal">ρc = 992,2 kg/m³ (~40 °C)</text>
+<path d="M 358.0 396 L 480 396 L 480 640 L 650 640" fill="none" stroke="#1d4ed8" stroke-width="3" stroke-linejoin="round"/>
+<text x="490" y="516" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="start" font-weight="normal">perna</text>
+<text x="490" y="533" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="start" font-weight="normal">variável</text>
+<rect x="650" y="580" width="140" height="84" rx="8" fill="#e5e7eb" stroke="#1f2937" stroke-width="2"/>
+<text x="720" y="612" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold">LT-101</text>
+<text x="720" y="632" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="normal">SMAR LD301</text>
+<text x="640" y="594" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2937" text-anchor="end" font-weight="bold">L</text>
+<text x="640" y="634" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2937" text-anchor="end" font-weight="bold">H</text>
+<text x="800" y="610" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" text-anchor="start" font-weight="normal">ΔP = P(H) − P(L)</text>
+<text x="800" y="630" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="normal">(mmH2O @ 20 °C)</text>
+<path d="M 505 204 L 505 396" fill="none" stroke="#1f2937" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 498 204 L 512 204" fill="none" stroke="#1f2937" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 498 396 L 512 396" fill="none" stroke="#1f2937" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="495" y="305.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" text-anchor="end" font-weight="bold">H = 600 mm</text>
+<path d="M 455 396 L 455 640" fill="none" stroke="#1f2937" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 448 396 L 462 396" fill="none" stroke="#1f2937" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M 448 640 L 462 640" fill="none" stroke="#1f2937" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="445" y="523.0" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2937" text-anchor="end" font-weight="bold">1500 mm</text>
+<text x="990" y="700" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#6b7280" text-anchor="end" font-weight="normal" font-style="italic">(desenho fora de escala)</text>
+<text x="364.0" y="196" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start" font-weight="normal">tomada superior (100 %)</text>
+<text x="364.0" y="388" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1f2937" text-anchor="start" font-weight="normal">tomada inferior (0 %)</text>
+<rect x="40" y="600" width="380" height="100" rx="6" fill="#fff7ed" stroke="#c2410c" stroke-width="1.2"/>
+<text x="56" y="626" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="start" font-weight="normal">Com h medido a partir da tomada inferior:</text>
+<text x="56" y="652" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1f2937" text-anchor="start" font-weight="bold">P(H) − P(L) = 1000·[SGa·h + SGv·(H − h) − SGc·H]</text>
+<text x="56" y="676" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="normal">SG = ρ / 998,2 kg/m³ · os trechos de 1,5 m abaixo</text>
+<text x="56" y="692" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="normal">da tomada inferior são iguais e se cancelam</text></svg>
